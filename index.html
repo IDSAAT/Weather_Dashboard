@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard | Real-Time Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather-card">
+            <h1>🌤️ Weather Dashboard</h1>
+            
+            <!-- Search Section -->
+            <div class="search-section">
+                <input type="text" id="cityInput" placeholder="Enter city name..." class="city-input">
+                <button id="searchBtn" class="btn btn-search">🔍 Search</button>
+                <button id="locationBtn" class="btn btn-location">📍 My Location</button>
+            </div>
+            
+            <!-- Weather Display -->
+            <div id="weatherResult" class="weather-result">
+                <div class="weather-icon" id="weatherIcon">🌍</div>
+                <div class="city-name" id="cityName">--</div>
+                <div class="temperature" id="temperature">--°C</div>
+                <div class="description" id="description">Enter a city to see weather</div>
+                <div class="details">
+                    <div class="detail-item">
+                        <span>💧 Humidity</span>
+                        <span id="humidity">--%</span>
+                    </div>
+                    <div class="detail-item">
+                        <span>💨 Wind Speed</span>
+                        <span id="windSpeed">-- km/h</span>
+                    </div>
+                    <div class="detail-item">
+                        <span>🌡️ Feels Like</span>
+                        <span id="feelsLike">--°C</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Loading & Error Messages -->
+            <div id="message" class="message"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
