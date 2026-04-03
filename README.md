@@ -3,7 +3,7 @@
 A weather application that fetches real-time weather data using the Open-Meteo API (no API key required). Users can search by city name or use their current location.
 
 📌 Live Demo
-View Live Demo at "https://your-demo-link.netlify.app"
+View Live Demo at "https://checkingweather.netlify.app/"
 
 🎯 Features
 
