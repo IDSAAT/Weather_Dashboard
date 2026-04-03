@@ -41,6 +41,7 @@ It fetches weather data then searches by city(Geo-Coding) then gets user locatio
 2. Add hourly forecast graph
 3. Add favorite cities list
 4. Add temperature unit toggle (°C/°F)
+
 note: This can be done by anyone.
 
 📄 License
