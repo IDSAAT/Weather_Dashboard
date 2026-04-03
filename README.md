@@ -26,7 +26,7 @@ View Live Demo at "https://checkingweather.netlify.app/"
 🚀 How to Run Locally
 1. Clone the repository:
 bash;
-git clone https://github.com/yourusername/weather-dashboard.git
+git clone https://github.com/yourusername/Weather-Dashboard.git
 2. Navigate to the project folder:
 cd weather-dashboard
 3. Open index.html in your browser
